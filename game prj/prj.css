@@ -1,0 +1,432 @@
+
+body{
+    margin: 0px;
+    background-color: black;
+}
+.grid{
+    display :grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 60px 800px  60px 350px;
+    grid-template-areas: 
+    "n n n n"
+    "sb sb m m"
+    "c1 c1 c1 c1"
+    ;
+    grid-gap: 5px;
+}
+  
+    h1{
+        margin: 10px;
+        color: white;
+    }
+
+.box1{
+    background-color: rgba(0, 0, 0, 0.9);
+    grid-area: n;
+    display: flex;
+    align-items: center;
+   z-index: 1;
+   
+ 
+}
+.box2{
+    background-color:black;
+    grid-area: sb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.container{
+    Width:527px;
+    Height:512px;
+    background-color: black;
+}
+
+.box3{
+    background-image :url(joy_stick\ 1.png);
+    background-size:761px 806px;
+
+
+    background-color:black;
+    grid-area: m;
+    
+}
+.box4{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    grid-area: c1;
+    color: white;
+   
+}
+.box5{
+    background-color:black;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box6{
+    background-color: black;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.box7{
+    background-color: black;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box8{
+    background-color: black;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+      font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+
+}
+.follow {
+      font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      color:white;
+    }
+ul{
+list-style-type: none;
+overflow: hidden; 
+margin: 2px;
+
+
+}
+li{
+float: left;
+padding: 20px;
+color:white;
+font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+
+}
+.box1{
+position: fixed;
+display: flex;
+color: white;
+width: 100vw;
+margin: 0px;
+}
+.navigation{
+margin: 0px;
+padding-left: 800px;
+
+}
+.top{
+display: flex;
+flex-direction: column;
+width: 527px;
+height: 409px;
+background-color:black;
+
+
+}
+.a{
+    color: white;
+}
+
+
+.dev {
+font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: 20px;
+      font-weight: 600px;
+      font-style: normal;
+      width: 155px;
+      padding: 10px;
+      border-radius: 20px;
+      color: white;
+      margin: 15px;
+      background-color: #E87D0E;
+      margin-bottom: 70px;
+
+}
+.work{
+font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      color: white;
+      margin: 15px;
+      width: 250px;
+
+
+
+}
+.lorem{
+color: white;
+font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      margin: 15px;
+      margin-top: 40px;
+      width: 350px;
+     
+
+}
+.get{
+color: white;
+font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      margin: 15px;
+      background-color: #E87D0E;
+      width: 130px;
+      padding:10px;
+      border-radius:20px;
+     
+}
+.unity{
+position: relative;
+width: 96px;
+height: 30px;
+top: 409px;
+left: -300px;
+gap: 0px;
+opacity: 0px;
+
+}
+.cry{
+position: relative;
+width: 101px;
+height: 99px;
+top: 202px;
+left: 88px;
+gap: 0px;
+opacity: 0px;
+
+}
+.unreal{
+position: relative;
+width: 59px;
+height: 64px;
+top: 218px;
+left:350px;
+gap: 0px;
+opacity: 0px;
+angle: -0 deg;
+
+} 
+.trend{
+color:  #E87D0E;
+font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+   
+   
+    }
+      .see{
+color:  #E87D0E;
+font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      margin-right:40px;
+     
+     }
+     .games{
+        display: flex;
+        margin-top: 250px;
+        justify-content: center;
+     }
+
+
+     
+     
+     .lorem1{
+        margin-top: 100px;
+        width: 100vw;
+        height: 120px;
+        background-color:black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+    .lor{
+  
+        width: 700px;
+        text-align: center;
+    }
+    .spidy{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        margin-right: 200px;
+        height: 600px;
+        width: 1050px;
+        border:solid white;
+        background-color:black;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .spy{
+        width: 1050px;
+    }
+    .lrspy{
+    
+      font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      color:white;
+    
+    }
+    a{
+        padding: 5px;
+    }
+    .lospy{
+     
+        width: 600px;
+        height: 120px;
+        color: white;
+       
+    }
+  
+    .op{
+margin-left: 200px;
+margin-top: 300px;
+
+    }
+    .recent{
+        width: 100vw;
+        height: 710px;   
+        margin-top: 50px;
+    }
+    .cont{
+height: 678px;
+justify-content: center;
+align-items: center;
+    }
+    .cont-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        
+    }
+    .cont-bottom{
+        margin-top: 40px;
+        height: 578px;
+       
+    }
+    .recent-project1{
+        margin-top: 40px;
+        align-items: center;
+        font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      color:white;
+    }
+    .recent-project2{
+        font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      color:white;
+      
+    }
+    .up{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .down{
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .rec15{
+        margin: 5px;
+        width: 382px;
+height: 223px;
+top: 3738px;
+left: 135px;
+gap: 0px;
+border-radius: 20px 0px 0px 0px;
+opacity: 0px;
+
+    }
+    .rec16{
+        margin: 10px;
+        width: 382px;
+height: 223px;
+top: 3738px;
+left: 544px;
+gap: 0px;
+border-radius: 20px 0px 0px 0px;
+opacity: 0px;
+
+    }
+    .rec17{
+        margin: 10px;
+        width: 352px;
+        height: 223px;
+        top: 3738px;
+        left: 953px;
+        gap: 0px;
+        border-radius: 20px 0px 0px 0px;
+        opacity: 0px;
+
+    }
+    .rec18{
+        margin: 10px;
+        width: 401px;
+height: 223px;
+top: 3994px;
+left: 408px;
+gap: 0px;
+border-radius: 20px 0px 0px 0px;
+opacity: 0px;
+
+    }
+    .rec19{
+        margin: 10px;
+        width: 246px;
+height: 223px;
+top: 3994px;
+left: 135px;
+gap: 0px;
+border-radius: 20px 0px 0px 0px;
+opacity: 0px;
+
+    }
+    .rec20{
+        margin: 10px;
+        width: 469px;
+height: 223px;
+top: 3994px;
+left: 836px;
+gap: 0px;
+border-radius: 20px 0px 0px 0px;
+opacity: 0px;
+
+    }

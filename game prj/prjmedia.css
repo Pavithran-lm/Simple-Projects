@@ -1,0 +1,92 @@
+@media only screen and (max-width: 600px){
+    
+        .grid{
+            display :grid;
+            height: 100vh;
+            width: 590px;
+            grid-template-columns: repeat 1fr;
+            grid-template-rows: 1fr;
+            grid-template-areas: 
+            "n"
+            "sb"
+            "m"
+            "c1"
+            ;
+            grid-gap: 5px;
+        }
+
+        .games{
+            display: flex;
+            flex-direction: column;
+            width: 590px;
+        }
+        .lorem1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           
+        }
+        .spidy{
+            display: flex;
+            flex-direction: column;
+            width: 590px;
+        }
+        .lor{
+            width: 550px;
+        }
+        .spidy{
+           
+            margin-left: 0px;
+            width: 500px;
+        }
+        .lospy{
+            width: 500px;
+        }
+        .op{
+            margin-left: 0px;
+            width: 550px;
+            margin-top: 20px;
+
+        }
+        .recent-project2{
+            width: 550px;
+         
+        }
+        .cont-bottom{
+            width: 500px;
+            
+        }
+        .up{
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            align-items: center;
+        }
+        .down{
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .box1{
+         
+           padding-left: 0px;
+
+        
+            width: 500px;
+            height: 30px;
+            
+        }
+        .navigation{
+            padding-left: 0px;
+            justify-content: space-between;
+            align-items: flex-end;
+            width: 80px;
+            
+        }
+        .box3{
+            background-image :url(joy_stick\ 1.png);
+            background-size:361px 406px;
+            background-size: cover;
+    }
+}
